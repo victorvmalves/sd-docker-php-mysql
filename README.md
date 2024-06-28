@@ -15,6 +15,5 @@ docker-compose up -d
 ```bash
 export DOCKER_DEFAULT_PLATFORM=linux/amd64/v2
 
-OR
-
+```bash
 export DOCKER_DEFAULT_PLATFORM=linux/amd64/v8
