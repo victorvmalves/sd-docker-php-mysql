@@ -9,3 +9,12 @@ Use o seguinte comando para rodar a aplicação
 ```bash
 docker-compose up -d
 ```
+
+## Configuração
+
+```bash
+export DOCKER_DEFAULT_PLATFORM=linux/amd64/v2
+
+OR
+
+export DOCKER_DEFAULT_PLATFORM=linux/amd64/v8
