@@ -12,6 +12,20 @@ docker-compose up -d
 
 ## Configuração
 
+Renomear o arquivo .env.exemplo para .env:
+```bash
+mv .env.exemplo .env
+```
+
+Preencher as variáveis do arquivo .env, por exemplo:
+```bash
+MYSQL_ROOT_PASSWORD=root_password
+MYSQL_DATABASE=base_exemplo
+MYSQL_USER=user
+MYSQL_PASSWORD=user_password
+MYSQL_HOST=mysql
+```
+
 ```bash
 export DOCKER_DEFAULT_PLATFORM=linux/amd64/v2
 ```
