@@ -1,23 +1,14 @@
 # sd-docker-php-mysql
 Aplicação exemplo com Docker - Página PHP conectando ao Mysql (containers com docker compose)
 
-
-## Instalação
-Use o seguinte comando para rodar a aplicação
-
-
-```bash
-docker-compose up -d
-```
-
 ## Configuração
 
-Renomear o arquivo .env.exemplo para .env:
+1. Renomear o arquivo .env.exemplo para .env:
 ```bash
 mv .env.exemplo .env
 ```
 
-Preencher as variáveis do arquivo .env, por exemplo:
+2. Preencher as variáveis do arquivo .env, por exemplo:
 ```bash
 MYSQL_ROOT_PASSWORD=root_password
 MYSQL_DATABASE=base_exemplo
@@ -33,4 +24,11 @@ OU
 
 ```bash
 export DOCKER_DEFAULT_PLATFORM=linux/amd64/v8
+```
+
+## Instalação
+1. Use o seguinte comando para rodar a aplicação
+
+```bash
+docker-compose up -d
 ```
