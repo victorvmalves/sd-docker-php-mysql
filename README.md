@@ -8,10 +8,10 @@ Aplicação exemplo com Docker - Página PHP conectando ao Mysql (containers com
 mv .env.example .env
 ```
 
-2. Preencher as variáveis do arquivo .env, por exemplo:
+2. Preencher as variáveis do arquivo .env, de acordo com o arquivo html/index.php:
 ```bash
-MYSQL_ROOT_PASSWORD=root_password
-MYSQL_DATABASE=base_exemplo
+MYSQL_ROOT_PASSWORD=user_password
+MYSQL_DATABASE=example_db
 MYSQL_USER=user
 MYSQL_PASSWORD=user_password
 MYSQL_HOST=mysql
