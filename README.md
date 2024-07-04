@@ -16,7 +16,7 @@ MYSQL_USER=user
 MYSQL_PASSWORD=user_password
 MYSQL_HOST=mysql
 ```
-
+3. SE em um mac M1, executar um dos seguintes comandos:
 ```bash
 export DOCKER_DEFAULT_PLATFORM=linux/amd64/v2
 ```
