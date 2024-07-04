@@ -5,7 +5,7 @@ Aplicação exemplo com Docker - Página PHP conectando ao Mysql (containers com
 
 1. Renomear o arquivo .env.exemplo para .env:
 ```bash
-mv .env.exemplo .env
+mv .env.example .env
 ```
 
 2. Preencher as variáveis do arquivo .env, por exemplo:
