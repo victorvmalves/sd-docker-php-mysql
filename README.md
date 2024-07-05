@@ -1,4 +1,4 @@
-# sd-docker-php-mysql
+# Instruções para Rodar Aplicação Exemplo com Apache e MySQL Usando Docker Compose
 Aplicação exemplo com Docker - Página PHP conectando ao Mysql (containers com docker compose)
 
 ## Configuração
